@@ -13,5 +13,14 @@ PHP Mysql Restore Tool
   1. git clone 本项目
   2. cd php-sql-restore
   3. 修改数据库配置文件
-  4. 执行 `php -f restore.php`
+    ```php
+    private $db_config = array(
+        'dbhost' => '127.0.0.1',
+        'dbuser' => 'root',
+        'dbpass' => '123456',
+        'dbname' => 'test',
+        'dbport' => 3306,
+    );
+    ```
+  4. 执行测试 `php -f ./test/test.php`
 

@@ -88,6 +88,3 @@ class DB
         return $aMessages;
     }
 }
-
-$dbObj = new DB();
-$dbObj->_executeSQLFile('./test.sql');
